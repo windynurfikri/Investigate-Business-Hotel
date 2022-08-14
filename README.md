@@ -7,7 +7,7 @@ Investigate Business Hotel using Data Visualization
 The dataset has 119,390 rows and 29 columns with 9 categorical variable and 20 numerical variable.
 Here's whats were found after basic checking, and the steps will be performed to handle it:
 - 33,621 duplicated rows, will be dropped
-- `company` has so many (>90%) missing/null values.
+- `company` has so many (>90%) missing/null values, will be dropped.
 - Impute missing value in `children` with 0 and change its data type into 'int64', because it must be integer and its mean/median is around 0.
 - Impute missing value in `agent` with 0.
 - `city` has many categorical value, will be dropped.
